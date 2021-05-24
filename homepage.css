@@ -1,0 +1,621 @@
+::-webkit-scrollbar {
+
+    background-color:black;
+} 
+
+
+::-webkit-scrollbar-track{ 
+    background-color:black;
+}
+
+::-webkit-scrollbar-thumb { 
+    background-color: greenyellow;
+}
+
+body{
+    background-color: black;
+    font-family: 'Averia Serif Libre', cursive;
+    letter-spacing: 2px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background:url(https://i.imgur.com/4ovCv3Y.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+
+nav{
+    height:100px;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color: black;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index:1;
+}
+
+.collegamenti {
+    width:90%;
+    height:100%;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.collegamenti a{
+    border: 4px solid greenyellow;
+    border-radius: 50px;
+    background-color: black;
+    color:greenyellow;
+    padding: 20px;
+    font-size: 15px;
+    text-transform: uppercase;  
+}
+
+.collegamenti a:visited {
+    text-decoration: none;
+}
+
+.collegamenti a:hover{
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+.carrello {
+    display:flex;
+    justify-content: flex-end;
+    margin-left:50px;
+    margin-right:20px;
+    border-radius: 50px;
+}
+
+#carrello { 
+    height:40px;
+    width:60px;
+    background-image: url(carrello1.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 6px;
+    border:none;
+    background-color: greenyellow;
+    border-radius: 50px;
+}
+
+#benvenuto_e_logout {
+    width:10%;
+    height:100%;
+    font-size: 13px;
+    margin-right: 15px;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+ #benvenuto_e_logout h2 {
+     color : white;
+     margin-bottom: 0px;
+ }
+
+ #username { 
+     font-size:17px;
+     text-transform: lowercase;
+     font-style: italic;
+     color:white;
+ }
+ 
+ #logout { 
+     display:flex;
+     justify-content: flex-end;
+     align-items: flex-end; 
+
+ }
+
+ #logout a, #logout a:visited {
+     display:inline-block;
+     margin-top: 0px;
+     margin-left : 2px;
+    text-decoration: none;
+    color : greenyellow;
+ }
+
+ #logout span{ 
+     display:inline-block;
+     height:20px;
+     width:20px;
+     background-image: url(logout.png);
+     background-size: cover;
+ }
+
+#menu {
+    display: none;
+    }
+    #menu div {
+    height:5px;
+    width: 40px;
+    background-color: greenyellow;
+    margin: 5px 0;
+    margin-left: 20px;
+    }
+
+.menu_tendina {
+    display:none;
+}
+
+
+header{
+    height:500px;
+    width: 1200px;
+    margin-top:90px;
+    background-image: url(https://i.imgur.com/EFwa8z5.png);
+    background-size: cover;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+section{
+    min-height:2000px;
+    width: 1000px;
+    background-color: white;
+    margin: 20px 0px;
+    
+}
+
+section p{
+   
+    background-color: greenyellow;
+    height:100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:0px;
+    margin-bottom: 10px;
+}
+
+section p strong{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: 'Prata', serif;
+
+
+}
+
+section span { 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+a.button {
+    border-radius: 50px;
+    background-color: greenyellow ;
+    color: black;
+    padding:15px;
+    text-decoration: none;
+}
+
+a.button:hover{
+    background-color: rgba(173, 255, 47, 0.75);
+}
+
+#consolemomento, #curiosita, .links, .popolari{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+
+#console1, #console2 {
+    background-color: black;
+    height:250px;
+    width: 50%;
+    margin:1%;
+}
+
+#console1{
+    background-image: url(https://i.imgur.com/UPUWTef.jpg);
+   
+    
+}
+
+#console2{
+background-image: url(https://i.imgur.com/4ornGeG.jpg);
+
+}
+
+
+#gioco1, #gioco2, #gioco3, #gioco4 {
+    background-color: black;
+    height:300px;
+    width: 50%;
+    margin:1%;
+}
+
+#gioco1{
+    background-image: url(https://i.imgur.com/1zxXl2D.jpg);
+}
+
+#gioco2{
+    background-image: url(https://i.imgur.com/J9vrFac.jpg);
+}
+
+#gioco3{
+    background-image: url(https://i.imgur.com/MFYVoEj.jpg);
+}
+
+#gioco4{
+    background-image: url(https://i.imgur.com/1Mc5D30.jpg);
+}
+
+#amiibo, #metacritic {
+    background-color: black;
+    height:250px;
+    width: 50%;
+    margin:1%;
+}
+
+
+
+#amiibo{
+    background-image: url(https://i.imgur.com/R5ykNV3.jpg);
+    
+}
+
+#metacritic{
+background-image: url(https://i.imgur.com/b8S6uIW.jpg);
+}
+
+
+section h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+#preordini {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.contenuto {
+
+    width:300px;
+    height:450px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    margin-left:10px;
+    margin-right:10px;
+}
+
+.nuovaimg{
+    height:300px;
+    width:300px;
+}
+
+.nuovoh1 {
+    font-family: 'Averia Serif Libre', cursive;
+text-transform: inherit;
+font-size:17px;
+text-align: start;
+}
+
+
+.elementoHTML2 {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cesta_aggiungi {
+
+    margin-left: 5px;
+    background-color: none;
+    border: none;
+    height:35px;
+    width:35px;
+    background-image: url(basket_aggiungi.png);
+    background-size: cover;
+}
+
+
+.bottone_dettagli{ 
+
+    
+    font-family: 'Averia Serif Libre', cursive;
+    font-size:10px;
+    letter-spacing: 2px;
+    border: none;
+    border-radius: 50px;
+    background-color: greenyellow;
+    color:black;
+    padding: 10px;
+    text-transform: uppercase;
+
+}
+
+.spazio_dettagli {
+
+    font-family: 'Prata', serif;
+    font-size: 9px;
+    letter-spacing: 2px;
+}
+
+.pannello_carrello { 
+    height:500px;
+    width: 400px;
+    background-color: black;
+    position:fixed;
+    top:100;
+    right:0;
+    overflow-y: scroll;
+}
+
+.pannello_carrello2 { 
+    min-height:450px;
+    width:375px;
+    background-color: white;
+    border:2px solid whitesmoke;
+}
+
+.articolo_carrello { 
+    width:373px;
+    height:100px;
+    background-color: white;
+    border:2px solid whitesmoke;
+    margin-bottom: 0;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.immagine_articolo_carrello img { 
+    height:70px;
+    width:70px; 
+}
+
+.titolo_e_quantita, .prezzo_e_rimuovi {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 13px;
+}
+
+.quantita_articolo_carrello{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meno, .piu {
+    width:20px;
+    height:20px;
+    border:none;
+    background-color: greenyellow;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quantita { 
+    width:35px;
+    height:20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rimuovi_articolo_carrello { 
+    height:30px;
+    width:30px;
+    background-image: url(basket_rimuovi.png);
+    background-size: cover;
+
+}
+
+.totale_carrello { 
+    height:50px;
+    width: 375px;
+    background-color: greenyellow;
+    border:2px solid whitesmoke;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+footer{
+    
+    height:200px;
+    width: 100%;
+   margin-bottom: -10px;
+    background-color: greenyellow;
+    display:flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    font-family: 'Prata', serif;
+
+}
+
+footer div{
+    text-align: left;
+}
+
+footer h2{
+    text-transform: uppercase;
+    font-size: 25px;
+    font-family: 'Abril Fatface', cursive;
+}
+
+footer a{
+    display:block;
+    font-size: 15px;
+}
+
+#nomecognome h2{
+    font-size:20px;
+    text-align: center;
+    color:black;
+    font-family: 'Prata', serif;
+}
+
+
+
+/* Mobile */
+
+
+@media(max-width: 1250px){
+
+    
+
+nav{
+        width:100vw;
+}
+
+#benvenuto_e_logout { 
+    position:absolute; 
+    right:20px;
+}
+
+.collegamenti{
+    display: none;
+    }
+
+    #menu
+    {
+    display: block;
+    }
+
+    .menu_tendina { 
+        display:block;
+        height:min-content;
+        width: 280px;
+        background-color: greenyellow;
+        position:fixed;
+        border:2px solid greenyellow;
+        top:100;
+        left:0;
+        z-index:1;
+    }
+
+    .carrello {
+        position:absolute;
+        right:200;
+    }
+    
+    
+    .voce_menu_tendina { 
+        width:276px;
+        height:100px;
+        background-color: black;
+        border:2px solid greenyellow;
+        margin-bottom: 0;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .voce_menu_tendina a { 
+        color:greenyellow; 
+        font-size:17px;
+        text-transform: uppercase;
+    }
+
+    header{ 
+        width:80vw;
+        min-height:30vh;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-color: none;
+        margin-top:0px;
+        margin-bottom:-100px;
+         
+    }
+
+    section{
+       
+       height:min-content; 
+       width:100vw;
+    
+    }
+
+    section p strong{
+        font-size: 2em;
+    }
+
+    section h1{
+        font-size: 1.5em;
+    }
+    #promo1, #promo2, #promo3{
+        font-size:2em;
+    }
+
+    #consolemomento, #curiosita, .links, #promozioni1, #promozioni2, .popolari{
+        flex-direction: column;
+        font-size:0.8em;
+    }
+
+    #console1, #console2, #gioco1, #gioco2, #gioco3, #gioco4, #amiibo, #metacritic { 
+        min-height: 30vh ;
+        width:80vw;
+        background-size: contain;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: white;
+    }
+
+
+    footer{
+        position: relative;
+        left: 0;
+        bottom: 0;
+        height:13%;
+        
+    }
+
+    footer h2, footer a{
+        font-size: 0.6em;
+    }
+
+    #nomecognome h2{
+        font-size: 0.5em;
+    }
+    
+
+}
+
+.hidden { 
+    display: none;
+}
